@@ -3,8 +3,11 @@
 main()
 {
 	int a,b;
-	a=65;
-	b=25;
+	
+	printf("enter value a=");
+	scanf("%d",&a);
+	printf("enter value b=");
+	scanf("%d",&b);
 	
 	int *p,*p1,*p2;
 	p=&a;
